@@ -1,0 +1,98 @@
+/* -- Color Palette
+Red: #ED1B24 
+Black: #231F20
+White: #FFFFFF
+-- */
+
+/* ------------------------------------- */
+/* Basic Setup */
+/* ------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ------------------------------------- */
+/* Reusable Components */
+/* ------------------------------------- */
+
+/* Heading Elements */
+
+h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 300%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+/* Paragraphs */
+
+p {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* ------------------------------------- */
+/* Header */
+/* ------------------------------------- */
+
+.hero-box {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #ED1B24;
+    text-align: center;
+}
+
+.logo {
+    height: 100vh;
+    width: auto;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+/* ------------------------------------- */
+/* Main */
+/* ------------------------------------- */
+
+main {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rules-heading {
+    margin-bottom: 40px;
+}
+
+li {
+    font-size: 100%;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+.shirt-link {
+    font-size: 75%;
+}
+
+/* ------------------------------------- */
+/* Section */
+/* ------------------------------------- */
+
+section {
+    text-align: center;
+}
