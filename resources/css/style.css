@@ -54,7 +54,7 @@ p {
 }
 
 .logo {
-    height: 100vh;
+    height: 70vh;
     width: auto;
 }
 
@@ -71,7 +71,7 @@ main {
     margin-bottom: 50px;
 }
 
-.rules-heading {
+main h1 {
     margin-bottom: 40px;
 }
 
@@ -81,7 +81,7 @@ li {
     margin-bottom: 1em;
 }
 
-ul {
+main ul {
     margin-bottom: 40px;
 }
 
@@ -95,4 +95,22 @@ ul {
 
 section {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ------------------------------------- */
+/* Footer */
+/* ------------------------------------- */
+
+footer {
+    text-align: center;
+    background-color: #231F20;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.insta {
+    fill: #FFFFFF;
+    height: 1em;
+    width: 1em;
 }
